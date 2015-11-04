@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<routing>
+    <topic id="*">
+        <route src="*" dst="*" />
+        <route src="C1,C2" dst="C0,C3" />
+        <route src="C0" dst="C1" />
+    </topic>
+
+    <topic id="A">
+        <route src="*" dst="" />
+        <route src="C1,C2" dst="C0" />
+        <route src="C3" dst="C0,C1" />
+    </topic>
+
+    <topic id="C">
+        <route src="C1" dst="" />
+    </topic>
+
+</routing>

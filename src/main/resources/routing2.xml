@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<routing>
+    <route src="*">
+        <topic id="*" dst="*" />
+        <topic id="A,B" dst="C0,C3" />
+        <topic id="C" dst="C1" />
+    </route>
+
+    <route src="C1">
+        <topic id="*" dst="*" />
+        <topic id="A,B" dst="C3" />
+        <topic id="C" dst="C0" />
+    </route>
+
+</routing>
